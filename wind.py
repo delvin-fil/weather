@@ -13,7 +13,7 @@ headers = {
     'DNT': '1'
 }
 
-win = requests.get('http://api.pogoda.com/index.php?api_lang=ru&localidad=237263&affiliate_id=4h5o9wy3uyjp&v=2&h=1', headers=headers).text
+win = requests.get('http://api.pogoda.com/index.php?api_lang=ru&localidad=237263&affiliate_id=YOU_API_KEY_pogoda.ru&v=2&h=1', headers=headers).text
 wint  = parseString(win)
 win = wint.getElementsByTagName('day')[0]
 w = win.getElementsByTagName('wind')[cur_hour]

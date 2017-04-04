@@ -14,8 +14,8 @@ z = str(localtime[3])
 y = str(localtime[4])
 
 cmd = 'sensorsNearby'
-uuid = '6ce5e6b78477f27084cc524599fc5930'
-api_key = '09XImZqvP6g6U'
+uuid = 'UUID_narodmon'
+api_key = 'YOU_API_KEY_narodmon'
 radius = '11'
 lat = '54.643600' # Home 9
 lng = '86.198808' # Home 9

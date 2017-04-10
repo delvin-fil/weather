@@ -6,5 +6,5 @@ This weather for Conky.
 
 ![Conky](https://github.com/delvin-fil/weather/blob/master/screen.png)
 <hr>
-
+Add Galery icons
 
